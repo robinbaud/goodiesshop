@@ -66,7 +66,7 @@
         <input type="text" name="nom" placeholder="nom">
         <input type="email"name="mail" placeholder="mail@info.fr">
         <input type="text" name="telephone">
-        <input type="hidden">
+        <input type="hidden" name="id">
         <button type="submit">envoyer</button>
     </form>
 </body>
