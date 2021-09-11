@@ -1,5 +1,11 @@
 
 <?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+
     $pdo = new PDO( //ceci me sert a me connecté a ma base de donnée
         'mysql:host=localhost;
         dbname=phpexo;','root', 'root', // mon adresse, le nom de la base et mes identifiants
@@ -32,11 +38,12 @@
         
         $request=executerequest("REPLACE INTO oui VALUES (:nom, :prenom, :mail, :telephone, :id)",
                                 array(
-                                    ':nom'      =>$_POST['nom'],
-                                    ':prenom'   =>$_POST['prenom'],
-                                    ':mail'     =>$_POST['mail'],
-                                    ':telephone'=>$_POST['telephone'],
-                                    ':id'       =>$_POST['id']
+                                    'nom'      =>$_POST['nom'],
+                                    'prenom'   =>$_POST['prenom'],
+                                    'mail'     =>$_POST['mail'],
+                                    'telephone'=>$_POST['telephone'],
+                                    'id'       =>0
+                                    
                                 )
         );
         debug($_POST);
@@ -66,9 +73,8 @@
         <input type="text" name="nom" placeholder="nom">
         <input type="email"name="mail" placeholder="mail@info.fr">
         <input type="text" name="telephone">
-        <input type="hidden" name="id">
+        <input type="hidden" name="id"> 
         <button type="submit">envoyer</button>
     </form>
 </body>
-
 </html>
