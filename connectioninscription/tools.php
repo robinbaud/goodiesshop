@@ -1,8 +1,12 @@
+
+<!DOCTYPE html>
+
 <?php
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 
 $bdd = new PDO(
     'mysql:host=localhost; dbname=compte',
@@ -13,6 +17,11 @@ $bdd = new PDO(
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
     )
 );
+
+//-------------_SESSION--------------------
+session_start();
+$_SESSION['role'] = 'admin';
+
 
 function executerequest($replace, $param = array())
 {
