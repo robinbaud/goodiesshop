@@ -1,8 +1,10 @@
+
 <?php
 
 session_start();
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,7 +17,6 @@ session_start();
   <title>acceuil</title>
 </head>
 <body>
-
 
 <header>
             <div class="conteneur">
@@ -30,24 +31,45 @@ session_start();
         </header>
 
 
-
 <section id="titre">
-  
     <h1>TerreShop</h1>
-
 </section>
 
 <div class="container overflow-hidden">
-  <div class="row gy-5"><img src="../image/TerreShop/02-Air.jpg" alt="">
-</div>
- 
-  <div class="row gy-5"><img src="../image/TerreShop/02-Air.jpg" alt="">
-</div>
-  
-  <div class="row gy-5"><img src="../image/TerreShop/02-Air.jpg" alt="">
-</div>
-</div>
+  <div class="row gy-4">
+    <div class="col-6">
+      <div class="p-3 border bg-light"><img src="../image/TerreShop/01-Feu.jpg"class="img-fluid" alt=""></div>
+    </div>
 
+    <div class="col-6">
+      <div class="p-3 border bg-light"><img src="../image/TerreShop/02-Air.jpg"class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="col-6">
+      <div class="p-3 border bg-light"><img src="../image/TerreShop/03-Terre.jpg"class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="col-6">
+      <div class="p-3 border bg-light"><img src="../image/TerreShop/04-Eau.jpg"class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="col-6"style="width: 300px; height:auto">
+    <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/01_Feu.jpg"class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/02_Air.jpg"class="img-fluid " alt=""></div>
+    </div>
+    
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/03_Terre.jpg"class="img-fluid" alt=""></div>
+    </div>
+
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto" ><img src="../image/TerreShop/05_maisons.jpg"class="img-fluid" alt=""></div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
 

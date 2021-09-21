@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< Updated upstream
 ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
@@ -30,6 +31,9 @@ return $result;
 return false;
 }//3: si ca marche: youpiiii!!!!
 }   
+=======
+
+>>>>>>> Stashed changes
 
 
 
@@ -37,6 +41,7 @@ return false;
 
 if(!empty($_POST)){
         
+<<<<<<< Updated upstream
     $request=executerequest("REPLACE INTO reservation VALUES (:Nom, Prenom, Date, Heures, mail, produit,)",
                             array(
                                 ':Nom'      =>$_POST['Nom'],
@@ -46,6 +51,15 @@ if(!empty($_POST)){
                                 ':mail'     =>$_post['mail'],
                                 ':produit'  =>$_post['produit'],
                                 )   
+=======
+    $request=executerequest("REPLACE INTO reservation VALUES (:id_commande, :res_membre, :montant, :date_enregistrement, :etat)",
+                            array(
+                                ':id_commande'              =>$_POST['id_commande'],
+                                ':res_memdre'               =>$_POST['res_memdre'],
+                                ':date_enregistrement'      =>$_POST['date_enregistrement'],
+                                ':etat'                     =>$_POST['etat'],
+                            )
+>>>>>>> Stashed changes
     );
     debug($_POST);
 }
