@@ -1,12 +1,11 @@
-<<<<<<< Updated upstream
+
 <?php
 
 session_start();
 
 ?>
 
-=======
->>>>>>> Stashed changes
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,8 +17,6 @@ session_start();
   <title>acceuil</title>
 </head>
 <body>
-
-<<<<<<< Updated upstream
 
 <header>
             <div class="conteneur">
@@ -34,89 +31,46 @@ session_start();
         </header>
 
 
-
 <section id="titre">
     <h1>TerreShop</h1>
 </section>
 
 <div class="container overflow-hidden">
-  <div class="row gy-5">
+  <div class="row gy-4">
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/01-Feu.jpg"class="img-fluid" alt=""></div>
     </div>
+
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/02-Air.jpg"class="img-fluid" alt=""></div>
     </div>
+
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/03-Terre.jpg"class="img-fluid" alt=""></div>
     </div>
+
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/04-Eau.jpg"class="img-fluid" alt=""></div>
     </div>
 
-    <div class="col-6"  style="width: 350px; height:auto">
-    <div class="p-3 border bg-light"  style="width: 350px; height:auto"><img src="../image/TerreShop/01_Feu.jpg"class="img-fluid" alt=""></div>
+    <div class="col-6"style="width: 300px; height:auto">
+    <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/01_Feu.jpg"class="img-fluid" alt=""></div>
     </div>
-    <div class="col-6" style="width: 350px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 350px; height:auto"><img src="../image/TerreShop/02_Air.jpg"class="img-fluid" alt=""></div>
+
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/02_Air.jpg"class="img-fluid " alt=""></div>
     </div>
     
-    <div class="col-6" style="width: 250px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 250px; height:auto"><img src="../image/TerreShop/03_Terre.jpg"class="img-fluid" alt=""></div>
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/03_Terre.jpg"class="img-fluid" alt=""></div>
     </div>
-    <div class="col-6" style="width: 250px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 250px; height:auto" ><img src="../image/TerreShop/05_maisons.jpg"class="img-fluid" alt=""></div>
+
+    <div class="col-6" style="width: 300px; height:auto">
+      <div class="p-3 border bg-light"  style="width: 300px; height:auto" ><img src="../image/TerreShop/05_maisons.jpg"class="img-fluid" alt=""></div>
     </div>
   </div>
 </div>
-
-
-
-
-<!--
-<div class="container overflow-hidden">
-  <div class="row gy-5">
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/02-Air.jpg"class="img-fluid" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/01-Feu.jpg"class="img-fluid" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/03-Terre.jpg"class="img-fluid" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/04-Eau.jpg"class="img-fluid h-100" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/01_Feu.jpg"class="img-fluid h-75" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/02_Air.jpg"class="img-fluid h-75" alt=""></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light" ><img src="../image/TerreShop/03_Terre.jpg"class="img-fluid" alt="" style="width: 250px; height:25px"></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border bg-light w-75"><img src="../image/TerreShop/05_maisons.jpg"class="img-fluid h-75" alt=""></div>
-    </div>
-  </div>
-</div>
--->
 </body>
 </html>
 
 
-=======
-<section id="titre">
-  
-    <h1>TerreShop</h1>
-
-</section>
-
-
-
-</body>
-</html>
-
->>>>>>> Stashed changes
