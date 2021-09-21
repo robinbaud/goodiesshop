@@ -1,4 +1,8 @@
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 <?php
 require_once "tools.php";
 if ($_POST) {
@@ -45,6 +49,10 @@ if ($_POST) {
     <title>connection</title>
 </head>
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
     <form action="" method="post">
         <input type="email" name="email" placeholder="email">

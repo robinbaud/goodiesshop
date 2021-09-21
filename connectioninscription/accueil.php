@@ -1,9 +1,12 @@
+<<<<<<< Updated upstream
 <?php
 
 session_start();
 
 ?>
 
+=======
+>>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,6 +19,7 @@ session_start();
 </head>
 <body>
 
+<<<<<<< Updated upstream
 
 <header>
             <div class="conteneur">
@@ -103,3 +107,16 @@ session_start();
 </html>
 
 
+=======
+<section id="titre">
+  
+    <h1>TerreShop</h1>
+
+</section>
+
+
+
+</body>
+</html>
+
+>>>>>>> Stashed changes
