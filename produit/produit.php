@@ -31,17 +31,4 @@ return false;
 }//3: si ca marche: youpiiii!!!!
 }   
 
-if(!empty($_POST)){
-        
-    $request=executerequest("REPLACE INTO reservation VALUES (:Nom, Prenom, Date, Heures, mail, produit,)",
-                            array(
-                                ':Nom'      =>$_POST['Nom'],
-                                ':Prenom'   =>$_POST['Prenom'],
-                                ':Date'     =>$_POST['Date'],
-                                ':Heures'   =>$_POST['Heurses'],
-                                ':mail'     =>$_post['mail'],
-                                ':produit'  =>$_post['produit'],
-                                )   
-    );
-    debug($_POST);
-}
+
