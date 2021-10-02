@@ -57,27 +57,65 @@ if (!empty($_POST)) {//va chercher dans la table l'entré dont l'email est égal
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles-produit.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Document</title>
 </head>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../connectioninscription/accueil.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../connectioninscription/connexion.php">Connexion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../connectioninscription/inscription.php">Inscription</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Resvation/reservation.php">Réservé</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
 
 <body>
-    <form action="" method="post">
+
+    <div class="photo">
+        <img src="../image/TerreShop/mug-blanc.jpg" alt="Mug blanc">
+    </div>
+
+ <div class="wapper">
+    <form action="" method="post" id="formulaire">
         <label for="categorie">type de vêtement</label><br>
         <input type="text" name="categorie" placeholder="mot de passe"><br>
-        <label for="titre">Nom</label><br>
+        <label for="titre">Nom</label>
+        <br>
         <input type="name" name="titre" placeholder="mot de passe"><br>
-        <label for="description">Description</label><br>
-        <textarea name="description" cols="30" rows="10"><br>
-
-        </textarea><br>
-        <label for="couleur">Couleur</label><br>
-        <select name="couleur" placeholder="mot de passe">
+        <label for="description">Description</label>
+        <br>
+        <textarea name="description" cols="30" rows="10"> </textarea>
+        <br>
+        <label for="couleur">Couleur</label>
+        <br>
+        <select name="couleur" class="form-select w-25" aria-label="Default select example"> placeholder="mot de passe">
             <option value="rouge">Rouge</option>
             <option value="bleu">Bleu</option>
             <option value="blanc">Blanc</option>
@@ -90,18 +128,22 @@ if (!empty($_POST)) {//va chercher dans la table l'entré dont l'email est égal
             <option value="l">l</option>
             <option value="xl">xl</option>
             <option value="xxl">xxl</option>
-        </select><br>
+        </select>
+        <br>
         <label for="public">Sexe</label><br>
         <select name="public" placeholder="mot de passe">
             <option value="F">F</option>
             <option value="M">M</option>
-        </select><br>
+        </select>
+        <br>
         <label for="photo">photo</label><br>
         <input type="file" name="photo" placeholder="format accepté: seulement .jpg">
         <label for="prix"></label>
         <input type="number" min="0" max="100" name="prix" placeholder=""><p>€</p>
         <button type="submit">ajouter</button>
     </form>
+ </div>
+
 </body>
 
 </html>

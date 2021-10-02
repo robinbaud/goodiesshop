@@ -19,170 +19,54 @@ session_start();
 <body>
 
 <header>
-            <div class="conteneur">
-                <div>
-                    <a href="" title="">TerreShop</a>
-                </div>
-                <nav>
-                    <a href="inscription.php">Inscription</a>
-                    <a href="connexion.php">Connexion</a> 
-                </nav>
-            </div>
-        </header>
-
-
-<section id="titre">
-    <h1>TerreShop</h1>
-</section>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TerreShop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="inscription.php">Inscription</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="connexion.php">Connexion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Resvation/reservation.php">Réservé</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
 
 
 <div class="container overflow-hidden">
   <div class="row gy-4">
     <div class="col-6">
-      <div class="p-3 border bg-light"><img src="../image/TerreShop/01-Feu.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a>
-<div class="form-floating">
-  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option selected>Couleur</option>
-    <option value="S">S</option>
-    <option value="M">M</option>
-    <option value="L">L</option>
-    <option value="XL">XL</option>
-  </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
+      <div class="p-3 border bg-light">
+        <img src="../image/TerreShop/01-Feu.jpg"class="img-fluid" alt="">
+      </div>
     </div>
   
 
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/02-Air.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 2</a>
-
-      <div class="form-floating">
-  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option selected>Couleur</option>
-    <option value="S">S</option>
-    <option value="M">M</option>
-    <option value="L">L</option>
-    <option value="XL">XL</option>
-  </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
     </div>
 
     <div class="col-6">
       <div class="p-3 border bg-light"><img src="../image/TerreShop/03-Terre.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 3</a> 
-      <div class="form-floating">
-  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option selected>Couleur</option>
-    <option value="S">S</option>
-    <option value="M">M</option>
-    <option value="L">L</option>
-    <option value="XL">XL</option>
-  </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
+      
     </div>
 
     <div class="col-6">
-      <div class="p-3 border bg-light"><img src="../image/TerreShop/04-Eau.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 4</a> 
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>Couleur</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
+      <div class="p-3 border bg-light">
+        <img src="../image/TerreShop/04-Eau.jpg"class="img-fluid" alt="">
+      </div>
+        
     </div>
-
-    <div class="col-6"style="width: 300px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/01_Feu.jpg"class="img-fluid" alt=""></div>
-        <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a> 
-    </div>
-
-    <div class="col-6" style="width: 300px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/02_Air.jpg"class="img-fluid " alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a>
-    </div>
-    
-    <div class="col-6" style="width: 300px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 300px; height:auto"><img src="../image/TerreShop/03_Terre.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a>
-    </div>
-
-    <div class="col-6" style="width: 300px; height:auto">
-      <div class="p-3 border bg-light"  style="width: 300px; height:auto" ><img src="../image/TerreShop/05_maisons.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a>
-    </div>
-
-    
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img src="../image/TerreShop/Pull-Air.jpg"class="img-fluid" alt=""></div>
-        <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a> 
-        <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>TAILLE</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
-    </div>
-
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img src="../image/TerreShop/Pull-eau.jpg"class="img-fluid " alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a> 
-
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>TAILLE</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
-    </div>
-    
-    <div class="col-6">
-      <div class="p-3 border bg-light"><img src="../image/TerreShop/Pull-Feu.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a> 
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>TAILLE</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
-    </div>
-
-    <div class="col-6">
-      <div class="p-3 border bg-light" ><img src="../image/TerreShop/Pull-Terre.jpg"class="img-fluid" alt=""></div>
-      <a class="btn btn-primary" href="../produit/produit.php" role="button">choix 1</a> 
-
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>TAILLE</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-    <label for="floatingSelect">Works with selects</label>
-</div>
-    </div>
-
 
 
   </div>

@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+form{
+    margin-top: -600px;
+}
+
+.wapper {
+    width: 400px;
+    margin-left: 1080px;
+}
+
+#formulaire input {
+    margin-bottom : 20px;
+    border : 1px solid grey;
+}
+
+
+
+
+.photo{
+    margin-left: 45px;
+    margin-top: 25px;
+    width: 25%;
+}
